@@ -9,11 +9,11 @@ def getinput(n1, n2):
 
 def main():
     num1 = num2 = 0
-    print('Before call function id n1: ', id(num1))
-    print('Before call function id n2: ', id(num2))
+    print('Before call function id num1: ', id(num1))
+    print('Before call function id num2: ', id(num2))
     getinput(num1, num2)
-    print('After call function id n1: ', id(num1))
-    print('After call function id n2: ', id(num2))
+    print('After call function id num1: ', id(num1))
+    print('After call function id num2: ', id(num2))
     print(num1, num2)
     return num1, num2
 
